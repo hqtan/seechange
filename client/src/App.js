@@ -44,12 +44,14 @@ const App = () => (
       <div class="centered">  <h1 className = "paragraph-headings"> It is still our greatest challenge. </h1></div>
   </div>
 
-  <Container className="main call">
+  <Container fluid className="main call">
     <p>
       In 2007, Australian Prime Minister Kevin Rudd called climate change
       'the great moral challenge of our generation'.
     </p>
+  </Container>
 
+  <Container fluid className="main call">
     <div id="kevinquote">
       <div class="yearquote">
         <p>2007 -------</p>
@@ -62,12 +64,50 @@ const App = () => (
         <img src={ process.env.PUBLIC_URL + '/img/kevin_rudd.png' } alt="Kevin Rudd"/>
       </div>
       <div id="speechBubble">
-        <p class="bubble speech">"the great moral<br />challenge"</p>
+        <p class="bubble speech">"the great moral challenge"</p>
         <div>
           <p class="kevinquote1">#SocialChallenge</p>
           <p class="kevinquote2">#EconomicChallenge</p>
         </div>
       </div>
+    </div>
+  </Container>
+
+  <Container fluid className="main call">
+    <div>
+      <p>
+        He would also label it an environmental challenge, an economic
+        challenge and a social challenge.
+      </p>
+    </div>
+  </Container>
+
+  <Container fluid className="main call">
+    <div>
+      <p>
+        But he led with morality: <br />
+
+        <h1 className = "paragraph-headings">
+          this was an issue of undoubted <br />
+          <span id="quoteunderline">ethical significance.</span>
+        </h1>
+      </p>
+    </div>
+
+    <div>
+      <p>
+        An issue that was the duty of one generation to address for the
+        survival of those to come.An issue that should be unquestionably
+        beyond politics.
+      </p>
+    </div>
+
+    <div>
+      <p>
+        The story of Australia's response to climate change in the years
+        since Mr. Rudd declared it a moral challenge is a story of missed
+        opportunities.
+      </p>
     </div>
   </Container>
 
