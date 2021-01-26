@@ -44,7 +44,31 @@ const App = () => (
       <div class="centered">  <h1 className = "paragraph-headings"> It is still our greatest challenge. </h1></div>
   </div>
 
-  <Container>
+  <Container className="main call">
+    <p>
+      In 2007, Australian Prime Minister Kevin Rudd called climate change
+      'the great moral challenge of our generation'.
+    </p>
+
+    <div id="kevinquote">
+      <div class="yearquote">
+        <p>2007 -------</p>
+
+        <br />
+        <p id="kevruddName">Kevin Rudd</p>
+      </div>
+
+      <div class="kevimage">
+        <img src={ process.env.PUBLIC_URL + '/img/kevin_rudd.png' } alt="Kevin Rudd"/>
+      </div>
+      <div id="speechBubble">
+        <p class="bubble speech">"the great moral<br />challenge"</p>
+        <div>
+          <p class="kevinquote1">#SocialChallenge</p>
+          <p class="kevinquote2">#EconomicChallenge</p>
+        </div>
+      </div>
+    </div>
   </Container>
 
   <Container fluid className="however">
