@@ -115,6 +115,9 @@ const App = () => (
     </div>
 
     <p>
+      <br />
+      <br />
+      <br />
       It's a story of false starts, broken promises and <br />
       bad faith arguments.
       <br />
@@ -122,6 +125,9 @@ const App = () => (
       <br />
       A story of big ideas being comprised, diminished <br />
       and finally disappearing altogether.
+      <br />
+      <br />
+      <br />
     </p>
 
     <div className="full-width-image">
