@@ -129,20 +129,20 @@ p{
 }
 
 
-.however{
+.however {
   color: #FDF2E2;
   font-family: 'Roboto Mono', sans-serif;
   font-size: 10.5vw;
   padding-top: 6.2%;
   padding-bottom: 6.2%;
-    }
+}
 
-.sep{
+.sep {
   background-color: #FFFFF;
   min-height: 20vh;
 }
 
-.footer{
+.footer {
   padding-top: 3% !important;
   padding-left: 5% !important;
   color: #FFFFFF;
@@ -150,14 +150,13 @@ p{
   min-height: 20vh;
   font-size: 2.1vw;
   font-family: 'Roboto Mono', sans-serif;
-
 }
 
 .h-text {
   transform: rotate(-180deg);
 }
 
-p{
+p {
   word-spacing:1%;
   line-height: 1.25;
 }
