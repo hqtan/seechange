@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-
 import "./App.css";
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 
-import {Row, Col} from 'react-bootstrap';
+import { Row, Col } from "react-bootstrap";
 
-
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => (
   <div>
@@ -108,6 +106,26 @@ const App = () => (
         since Mr. Rudd declared it a moral challenge is a story of missed
         opportunities.
       </p>
+    </div>
+  </Container>
+
+  <Container fluid className="main call">
+    <div className="full-width-image">
+      <img src={process.env.PUBLIC_URL + "/img/scottmorrison.jpg"}></img>
+    </div>
+
+    <p>
+      It's a story of false starts, broken promises and <br />
+      bad faith arguments.
+      <br />
+      <br />
+      <br />
+      A story of big ideas being comprised, diminished <br />
+      and finally disappearing altogether.
+    </p>
+
+    <div className="full-width-image">
+      <img src={process.env.PUBLIC_URL + "/img/protests.jpg"}></img>
     </div>
   </Container>
 
