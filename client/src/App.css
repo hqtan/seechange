@@ -1,30 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
-
-.fluid{
-  background-color: #FCF4E8;
+.fluid {
+  background-color: #fcf4e8;
   padding: 10px;
 }
 
-.title{
-  font-family: 'Public Sans', sans-serif;
+.title {
+  font-family: "Public Sans", sans-serif;
   font-weight: 800;
 }
 
-.links{
+.links {
   font-size: 70%;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-weight: 600;
 }
 
-
 .App-header {
-  background-color: #FCF4E8;
+  background-color: #fcf4e8;
   border-bottom: solid 2px #000000;
   font-weight: 500;
-  color: #C97E2E !important;
-
+  color: #c97e2e !important;
 }
 
 .full-width-image {
@@ -51,14 +48,14 @@
   right: 16px;
 }
 
-.p1{
+.p1 {
   font-size: 4vw;
   text-align: center;
-  background-color: #FCF4E8;
+  background-color: #fcf4e8;
   font-family: "Public Sans", sans-serif;
   padding-top: 12%;
   padding-bottom: 22%;
-  color: #C98030;
+  color: #c98030;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -69,14 +66,13 @@
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: 1px;
-  word-spacing:1.25%;
+  word-spacing: 1.25%;
 }
 .p2 {
   font-size: 1.5vw;
   text-align: center;
   font-weight: 500;
-  color: #3F342C;
-
+  color: #3f342c;
 }
 .p3 {
   font-size: 2vw;
@@ -86,23 +82,23 @@
   color: #e68a00;
   margin: 4%;
 }
-.p4{
-   font-size: 45px;
+.p4 {
+  font-size: 45px;
 
   /* width: 100px; */
   text-align: center;
   margin: 0%;
 }
-.p5{
+.p5 {
   font-size: 45px;
   text-align: center;
   margin: 0%;
 }
 
-.call{
+.call {
   min-height: 20vh;
-  font-family: 'Roboto Mono', sans-serif;
-  color:#3C2F29;
+  font-family: "Roboto Mono", sans-serif;
+  color: #3c2f29;
   font-size: 2.1vw;
   padding-top: 8%;
   padding-bottom: 17%;
@@ -110,11 +106,11 @@
   padding-right: 15% !important;
 }
 
-.backgroundforcall{
-  background-color: #FDF2E2;
+.backgroundforcall {
+  background-color: #fdf2e2;
 }
 
-p{
+p {
   line-height: 1.25;
 }
 
@@ -125,60 +121,57 @@ p{
   transform: translate(-50%, -50%);
   color: white;
   white-space: nowrap;
-
 }
 
-
-.however{
-  color: #FDF2E2;
-  font-family: 'Roboto Mono', sans-serif;
+.however {
+  color: #fdf2e2;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 10.5vw;
   padding-top: 6.2%;
   padding-bottom: 6.2%;
 }
 
-.sep{
-  background-color: #FFFFF;
+.sep {
+  background-color: #fff;
   min-height: 20vh;
 }
 
-.footer{
+.footer {
   padding-top: 3% !important;
   padding-left: 5% !important;
-  color: #FFFFFF;
-  background-color: #3C2F29;
+  color: #ffffff;
+  background-color: #3c2f29;
   min-height: 20vh;
   font-size: 2.1vw;
-  font-family: 'Roboto Mono', sans-serif;
-
+  font-family: "Roboto Mono", sans-serif;
 }
 
 .h-text {
   transform: rotate(-180deg);
 }
 
-p{
-  word-spacing:1%;
+p {
+  word-spacing: 1%;
   line-height: 1.25;
 }
 
 .nopadding-left {
-   text-align: right;
-   padding: 0 !important;
-   margin: 0 !important;
-   letter-spacing: 2.5px;
+  text-align: right;
+  padding: 0 !important;
+  margin: 0 !important;
+  letter-spacing: 2.5px;
 }
 
 .nopadding-right {
-   text-align: left;
-   letter-spacing: 2.5px;
+  text-align: left;
+  letter-spacing: 2.5px;
 }
 
 .yearquote p {
   position: absolute;
   color: rgb(214, 142, 8);
-  font-size: 2em;
-  margin-left: 6rem;
+  font-size: 1em;
+  margin-left: 4rem;
   margin-top: 15.5rem;
   font-weight: 500;
   /* display-direction: column;*/
@@ -191,7 +184,7 @@ p{
 #kevruddName {
   position: absolute;
   color: #000;
-  font-size: 0.8rem;
+  font-size: 1rem;
   /* margin-left: 2rem; */
   margin-left: 11rem;
   margin-top: 16rem;
@@ -215,7 +208,7 @@ p{
 }
 p.bubble {
   position: absolute;
-  width: 17rem;
+  width: 18rem;
   text-align: center;
   line-height: 1.4em;
   margin: 0 0.1rem;
@@ -239,33 +232,30 @@ p.bubble:after {
 }
 p.speech:before {
   left: 4px;
-  bottom: -50px;
+  bottom: -47px;
   border: 24px solid;
   border-color: #3a2419 transparent transparent #3a2419;
 }
 p.speech:after {
   left: 24px;
-  bottom: -30px;
+  bottom: -27px;
   border: 5px solid;
   border-color: #3a2419 transparent transparent #3a2419;
 }
 .kevinquote1,
 .kevinquote2 {
   position: absolute;
-
-  /* margin-left: 2rem; */
   line-height: 1.5em;
-  /* font-size: 6rem; */
-  /* margin-top: 6rem; */
   font-weight: 700;
+  font-size: 1.3rem;
 }
 .kevinquote1 {
   margin-left: 5rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
 }
 .kevinquote2 {
-  margin-left: 4rem;
-  margin-top: 7rem;
+  margin-left: 3.5rem;
+  margin-top: 10rem;
 }
 
 #quotebold {
@@ -278,37 +268,144 @@ p.speech:after {
 }
 
 /* media  */
-@media (max-width: 900px) and (min-width: 0px) {
+
+/* iphone 7 plus  */
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+  p.bubble {
+    width: 6rem;
+    padding: 1px;
+    font-size: 0.6rem;
+  }
+  p.speech:before {
+    left: 1px;
+    bottom: -15px;
+    border: 8px solid;
+    border-color: #3a2419 transparent transparent #3a2419;
+  }
+  p.speech:after {
+    left: 1px;
+    bottom: -3px;
+    border: 4px solid;
+    border-color: #3a2419 transparent transparent #3a2419;
+  }
+
+  .kevimage img {
+    height: auto;
+    width: 10rem;
+    margin-left: 2rem;
+  }
+
+  .kevinquote1,
+  .kevinquote2 {
+    font-size: 0.6rem;
+  }
+
+  .kevinquote1 {
+    margin-top: 4rem;
+    margin-left: 0.5rem;
+  }
+  .kevinquote2 {
+    margin-top: 4.7rem;
+    margin-left: 0.05rem;
+  }
+
+  .yearquote p {
+    font-size: 1.7em;
+    margin-left: 0.4rem;
+    margin-top: 8rem;
+  }
+
+  #kevruddName {
+    margin-top: 9rem;
+    margin-left: 3rem;
+    font-size: 0.7rem;
+  }
+}
+
+/* ipad */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  p.bubble {
+    width: 8.5rem;
+    font-size: 0.8rem;
+    padding-right: 1px;
+  }
+
+  p.speech:before {
+    left: 4px;
+    bottom: -25px;
+    border: 10px solid;
+    border-color: #3a2419 transparent transparent #3a2419;
+  }
+  p.speech:after {
+    left: 9px;
+    bottom: -8px;
+    border: 3px solid;
+    border-color: #3a2419 transparent transparent #3a2419;
+  }
+  .kevinquote1,
+  .kevinquote2 {
+    font-size: 0.8rem;
+  }
+
+  .kevinquote1 {
+    margin-top: 4rem;
+    margin-left: 1rem;
+  }
+  .kevinquote2 {
+    margin-top: 4.8rem;
+    margin-left: 0.1rem;
+  }
+  .kevimage img {
+    height: auto;
+    width: 15rem;
+    margin-left: 4rem;
+    z-index: -1;
+  }
+  .yearquote p {
+    font-size: 1.5em;
+    margin-left: 0.1rem;
+    margin-top: 13rem;
+  }
+  #kevruddName {
+    margin-top: 13rem;
+    margin-left: 7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  p.bubble {
+    width: 11rem;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  p.speech:before {
+    left: 4px;
+    bottom: -40px;
+    border: 20px solid;
+    border-color: #3a2419 transparent transparent #3a2419;
+  }
+  p.speech:after {
+    left: 24px;
+    bottom: -20px;
+    border: 3px solid;
+    border-color: #3a2419 transparent transparent #3a2419;
+  }
+
   .yearquote p {
     font-size: 1.5em;
     margin-left: 0.2rem;
     margin-top: 10rem;
   }
 
-  #kevruddName {
-    position: absolute;
-    font-size: 0.6rem;
-
-    margin-left: 8rem;
-    top: 0.2rem;
-    /* top: 1rem; */
-  }
-  p.bubble {
-    width: 9rem;
-    font-size: 0.7rem;
-    padding: 5px;
-  }
-  div img {
+  .kevimage img {
     height: auto;
-    width: 12rem;
-    margin-left: 4rem;
-
-    margin-top: 1rem;
-    display: flex;
+    width: 17rem;
+    margin-left: 9rem;
   }
+
   .kevinquote1,
   .kevinquote2 {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 
   .kevinquote1 {
@@ -316,195 +413,16 @@ p.speech:after {
     margin-left: 3rem;
   }
   .kevinquote2 {
-    margin-top: 4.7rem;
+    margin-top: 5rem;
     margin-left: 2rem;
   }
-}
 
-/* ipad */
-@media only screen and (max-width: 768px) {
-  p.bubble {
-    width: 12rem;
-    margin-right: 0.4rem;
-    font-size: 1rem;
-  }
-
-  .kevinquote1,
-  .kevinquote2 {
-    font-size: 0.9rem;
-  }
-
-  .kevinquote1 {
-    margin-top: 4rem;
-    margin-left: 5rem;
-  }
-  .kevinquote2 {
-    margin-top: 4.8rem;
-    margin-left: 4rem;
-  }
-}
-
-/* iphone 7 plus  */
-@media (min-width: 0px) and (max-width: 414px) {
-  p.bubble {
-    width: 7rem;
-    font-size: 0.7rem;
-    padding: 5px;
-  }
-  p.bubble {
-    width: 8rem;
-    margin-right: 0.4rem;
-    font-size: 0.8rem;
-  }
-  p.speech:before {
-    left: 4px;
-    bottom: -20px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  p.speech:after {
-    left: 4px;
-    bottom: -15px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-
-  .kevinquote1,
-  .kevinquote2 {
-    font-size: 0.7rem;
-  }
-
-  .kevinquote1 {
-    margin-top: 4rem;
-    margin-left: 2rem;
-  }
-  .kevinquote2 {
-    margin-top: 4.7rem;
-    margin-left: 1rem;
-  }
   .yearquote p {
-    font-size: 1.1em;
-    margin-left: 0.2rem;
-    margin-top: 8rem;
+    font-size: 1.7em;
+    margin-left: 3rem;
+    margin-top: 12rem;
   }
-
   #kevruddName {
-    /* position: absolute; */
-    font-size: 0.7rem;
-
-    margin-left: 5rem;
-    top: 1.4rem;
-    /* top: 1rem; */
-  }
-}
-
-@media (min-width: 0px) and (max-width: 411px) {
-  p.bubble {
-    width: 8rem;
-    margin-right: 0.4rem;
-    font-size: 0.8rem;
-  }
-  p.speech:before {
-    left: 4px;
-    bottom: -20px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  p.speech:after {
-    left: 4px;
-    bottom: -15px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  .kevinquote1,
-  .kevinquote2 {
-    font-size: 0.7rem;
-  }
-
-  .kevinquote1 {
-    margin-top: 4rem;
-    margin-left: 1rem;
-  }
-  .kevinquote2 {
-    margin-top: 4.7rem;
-    margin-left: 0rem;
-  }
-}
-@media (min-width: 0px) and (max-width: 400px) {
-  p.bubble {
-    width: 8rem;
-    font-size: 0.8rem;
-  }
-  p.speech:before {
-    left: 4px;
-    bottom: -20px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  p.speech:after {
-    left: 4px;
-    bottom: -15px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  .kevinquote1,
-  .kevinquote2 {
-    font-size: 0.8rem;
-  }
-
-  .kevinquote1 {
-    margin-top: 4rem;
-    margin-left: 1rem;
-  }
-  .kevinquote2 {
-    margin-top: 4.7rem;
-    margin-left: 0rem;
-  }
-}
-/*iphone 7/6/8 */
-@media (min-width: 0px) and (max-width: 375px) {
-  p.bubble {
-    width: 7rem;
-    font-size: 0.7rem;
-  }
-  .kevinquote1,
-  .kevinquote2 {
-    font-size: 0.65rem;
-  }
-}
-/* Galaxy Note 3 / Galaxy Note II *
-
-/*iphone 5*/
-
-@media (min-width: 0px) and (max-width: 320px) {
-  p.bubble {
-    width: 6rem;
-    margin-right: 0.4rem;
-    font-size: 0.6rem;
-  }
-  p.speech:before {
-    left: 4px;
-    bottom: -20px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  p.speech:after {
-    left: 4px;
-    bottom: -15px;
-    border: 12px solid;
-    border-color: #3a2419 transparent transparent #3a2419;
-  }
-  .kevinquote1,
-  .kevinquote2 {
-    font-size: 0.6rem;
-  }
-
-  .kevinquote1 {
-    margin-top: 4rem;
-    margin-left: 1rem;
-  }
-  .kevinquote2 {
-    margin-top: 4.7rem;
-    margin-left: 0rem;
+    margin-top: 13rem;
   }
 }
