@@ -172,7 +172,7 @@ p {
   color: rgb(214, 142, 8);
   font-size: 1em;
   margin-left: 4rem;
-  margin-top: 15.5rem;
+  margin-top: 19rem;
   font-weight: 500;
   /* display-direction: column;*/
 }
@@ -186,8 +186,8 @@ p {
   color: #000;
   font-size: 1rem;
   /* margin-left: 2rem; */
-  margin-left: 11rem;
-  margin-top: 16rem;
+  margin-left: 16rem;
+  margin-top: 18rem;
   /* margin: 16rem;
   margin-left: 13rem; */
   font-weight: 600;
@@ -195,7 +195,7 @@ p {
 
 .kevimage img {
   height: auto;
-  width: 20rem;
+  width: 24rem;
   margin-left: 15rem;
   border-radius: 5px;
   margin-top: 1rem;
