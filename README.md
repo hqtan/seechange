@@ -2,7 +2,7 @@
 <br />
 
 <p align="center">
-  <h1 align="center"><a href="https://codeforaustralia.github.io/civic-makers-climate-change-visualization/">SeeChange (aka. Civic Makers Climate-Change) Project</a></h1>
+  <h1 align="center"><a href="https://codeforaustralia.github.io/seechange/">SeeChange (aka. Civic Makers Climate-Change) Project</a></h1>
 
   <p align="center">
     An awesome README to tell you everything you need to know about this project.
