@@ -1,6 +1,3 @@
-
-<br />
-
 <p align="center">
   <h1 align="center"><a href="https://codeforaustralia.github.io/seechange/">SeeChange (aka. Civic Makers Climate-Change) Project</a></h1>
 
@@ -38,13 +35,6 @@ This is a website that will inform visitors about the following:
 - Contact forms to MPs to influence their future decisions.
 - How to share the above information with others.
 
-## Built With
-
-- [React](https://reactjs.org/)
-- [Node](https://nodejs.org/en/)
-- [Express](https://expressjs.com/)
-- If database is required: [MongoDB](https://www.mongodb.com/)
-
 <!-- GETTING STARTED -->
 
 ## Getting Started
@@ -52,11 +42,6 @@ This is a website that will inform visitors about the following:
 Follow the instructions below to set up your local development environment.
 
 The instructions will guide you to deploy two services locally:
-
-- a 'client' service that serves up the react app
-- a test api service (that the react app uses)
-
-For more indepth instructions please see this [link](https://docs.google.com/document/d/1_Xz9BDUdD2zFesFQC_Zl64CHbjufQWjVTdEalExVhr8/edit)
 
 0. Open a command line interface (Terminal on mac or equivalent on windows)
 
@@ -83,13 +68,13 @@ nvm --version
 3. Clone the project source code.
 
 ```
-git clone https://github.com/CodeforAustralia/civic-makers-climate-change-visualization.git
+git clone https://github.com/CodeforAustralia/seechange.git
 ```
 
 4. Navigate into the project directory.
 
 ```
-cd civic-makers-climate-change-visualization
+cd seechange
 ```
 
 5. Install node using nvm:
@@ -109,52 +94,33 @@ $ node --version
 v14.15.1
 ```
 
-7. To start up the client service, navigate to `client/` folder and run npm install
+7. To start up the client service run npm install
 
 ```
-cd client
 npm install
 ```
 
-run npm start (while in clients folder)
+run npm start
 
 ```
 npm start
 ```
 
-8. To start up the test api service, open up another terminal, then navigate to the `server/` folder and install express and nodemon:
-
-```
-# go to the project directory
-cd civic-makers-climate-change-visualization
-nvm use
-cd server
-npm install
-```
-
-run npm start (while in `server/` folder):
-
-```
-npm start
-```
-
-9. Go to http://localhost:3000/ . You should see a short welcome message if the app is running.
+8. Go to http://localhost:3000/ . You should see a short welcome message if the app is running.
 
 ## Accessing the Application
 
-The application is currently hosted on [Github Pages](https://codeforaustralia.github.io/civic-makers-climate-change-visualization/).
+The application is currently hosted on [Github Pages](https://codeforaustralia.github.io/seechange/).
 
 On your local development instance, enter `http://localhost:3000` into any web-browser to view the app.
 
 ## How to deploy the application
 
-The application is currently hosted on [Github Pages](https://codeforaustralia.github.io/civic-makers-climate-change-visualization/).
+The application is currently hosted on [Github Pages](https://codeforaustralia.github.io/seechange/).
 
 To deploy the app to Github Pages, run the following commands:
 
 ```
-cd client/
-npm install  ## [optional] only install dependencies if you haven't done so earlier!
 npm run deploy
 ```
 
@@ -167,22 +133,17 @@ This repo has been set up to serve the content in `gh-pages` branch on Github Pa
 
 The [`gh-pages` tool](https://create-react-app.dev/docs/deployment/#github-pages) was used to ease the deployment of this app.
 
-<!-- ## Roadmap
-
-See the [Road Map](https://<link-of-road-map-here>) for a list of proposed features (and known issues). -->
-
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request (PR).
-6. After 1-2 approvals, the PR will be merged.
+1. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+2. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+3. Push to the Branch (`git push origin feature/AmazingFeature`).
+4. Open a Pull Request (PR).
+5. After 1-2 approvals, the PR will be merged.
 
 ## Asking for Help
 
@@ -198,9 +159,7 @@ Contributions are what make the open source community such an amazing place to b
 ## Project Conventions
 
 - [React functional components](https://programmingwithmosh.com/react/react-functional-components/) (with hooks)
-- [PascalCase](https://techterms.com/definition/pascalcase) for file/folder/component/class names.
 - [camelCase](https://techterms.com/definition/camelcase) for function/method names.
-- CSS TBD.
 
 ## Contributors
 
@@ -215,11 +174,6 @@ Contributions are what make the open source community such an amazing place to b
 - [mansisheth13](https://github.com/mansisheth13)
 - [annemariejayatilake](https://github.com/annemariejayatilake)
 - [AVu120](https://github.com/AVu120)
-
-<!-- LICENSE -->
-
-<!-- ## License
-TBD -->
 
 ## Contact
 
